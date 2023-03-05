@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Responsive Landing Page - HTML CSS & JAVASCRIPT</title>
+
+    <!-- ===== STYLE.CSS ===== -->
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+
+    <!-- ===== BOXICONS CDN ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header class="header container">
+      <!--  ===== NAVBAR ===== -->
+      <nav class="navbar">
+        <!--  ===== LOGO ===== -->
+        <div class="logo">
+          <a href="#">
+            <img
+              src="./icons/graduation-hat.png"
+              alt="graduation-hat"
+              class="logo_img"
+            />
+            <span>Edumem</span>
+          </a>
+        </div>
+        <!--  ===== NAV-MENU ===== -->
+        <div class="nav_menu">
+          <ul class="nav_menu_list">
+            <li class="nav_menu_list_item">
+              <a href="#" class="nav_link">home</a>
+            </li>
+            <li class="nav_menu_list_item">
+              <a href="#" class="nav_link">about</a>
+            </li>
+            <li class="nav_menu_list_item">
+              <a href="#" class="nav_link">courses</a>
+            </li>
+            <li class="nav_menu_list_item">
+              <a href="#" class="nav_link">instructor</a>
+            </li>
+            <li class="nav_menu_list_item">
+              <a href="#" class="nav_link">contact</a>
+            </li>
+            <li class="nav_menu_list_item">
+              <button class="nav__cta__btn">login/register</button>
+            </li>
+          </ul>
+        </div>
+
+        <button class="nav_toggle_btn" id="nav_toggle">
+          <i class="bx bx-menu bx-sm"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- ===== HOME =====  -->
+    <main class="container home_wrapper">
+      <section class="home">
+        <div class="absolute_img">
+          <img src="./icons/bulb.png" alt="bulb" class="bulb_img" />
+        </div>
+
+        <div class="home__offer">
+          <div class="pill">
+            <span>50% OFF</span>
+          </div>
+          <span class="home__offer_title">LEARN FROM TODAY</span>
+        </div>
+
+        <div class="home__data">
+          <h2 class="home__title">The Best Way For Your Learning</h2>
+          <p class="home__desc">
+            Learning is a lifeling process, and finding the best way to learn
+            can be a game-changer
+          </p>
+
+          <div class="home__cta">
+            <button class="explore__btn">Explore Courses</button>
+
+            <a href="#" class="watch_demo_btn">Watch Demo</a>
+          </div>
+        </div>
+
+        <img src="./icons/Saturn.png" alt="Saturn_img" class="saturn_img" />
+      </section>
+
+      <section class="home__img_wrapper">
+        <div class="bg_fade_1"></div>
+        <div class="bg_fade_2"></div>
+
+        <img src="./images/hero-img.png" alt="hero-img" class="hero_img" />
+
+        <img src="./icons/Saturn.png" alt="saturn_img" class="saturn_img_2" />
+      </section>
+    </main>
+    <br /><br />
+
+    <!-- ===== FOOTER ===== -->
+    <section class="footer container">
+      <ul class="footer-card-list">
+        <!-- ===== CARD ===== -->
+        <li class="footer-card-list-item student_card">
+          <div class="student_card_img">
+            <img src="./images/student-1.jpg" alt="student-1" />
+          </div>
+          <span class="student_course"
+            >Finacials Security with Thinking & Principles</span
+          >
+
+          <div class="course">
+            <div class="course_stats">
+              <span>
+                <i class="bx bxs-graduation"></i>
+                78 Students
+              </span>
+            </div>
+
+            <ul class="course_stars">
+              <li><i class="bx bxs-star star_icon"></i></li>
+              <li><i class="bx bxs-star star_icon"></i></li>
+              <li><i class="bx bxs-star star_icon"></i></li>
+              <li><i class="bx bxs-star star_icon"></i></li>
+              <li><i class="bx bxs-star star_icon"></i></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="footer-card-list-item student_card">
+          <div class="student_card_img">
+            <img src="./images/student-2.jpg" alt="student-2" />
+          </div>
+          <span class="student_course"
+            >Learning to write As a Profession Author</span
+          >
+
+          <div class="course">
+            <div class="course_stats">
+              <span>
+                <i class="bx bxs-graduation"></i>
+                44 Students
+              </span>
+            </div>
+
+            <ul class="course_stars">
+              <li><i class="bx bxs-star star_icon"></i></li>
+              <li><i class="bx bxs-star star_icon"></i></li>
+              <li><i class="bx bxs-star star_icon"></i></li>
+              <li><i class="bx bxs-star star_icon"></i></li>
+              <li><i class="bx bxs-star star_icon"></i></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="footer-card-list-item student_card">
+          <div class="student_card_img">
+            <img src="./images/student-3.jpg" alt="student-3" />
+          </div>
+          <span class="student_course"
+            >Master JQuery in a short Period of Time</span
+          >
+
+          <div class="course">
+            <div class="course_stats">
+              <span>
+                <i class="bx bxs-graduation"></i>
+                32 Students
+              </span>
+            </div>
+
+            <ul class="course_stars">
+              <li><i class="bx bxs-star star_icon"></i></li>
+              <li><i class="bx bxs-star star_icon"></i></li>
+              <li><i class="bx bxs-star star_icon"></i></li>
+              <li><i class="bx bxs-star star_icon"></i></li>
+              <li><i class="bx bxs-star star_icon"></i></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+
+    <!-- ===== SCRIPT.JS ===== -->
+    <script src="./assets/JS/script.js"></script>
+  </body>
+</html>
