@@ -1,4 +1,4 @@
-# Responsive Modal (popup box) using HTML CSS & Javascript 🚀
+# Responsive landing page using HTML CSS & Javascript 🚀
 
 ## [Watch it on youtube](https://youtu.be/pX9K9g28CRg)
 
