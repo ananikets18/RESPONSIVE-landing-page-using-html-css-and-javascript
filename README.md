@@ -37,7 +37,7 @@ RESPONSIVE-landing-page-using-html-css-and-javascript/
 ├── preview-new.png
 └── README.md
 
-````
+```
 
 ---
 
@@ -84,4 +84,3 @@ This project is explained step-by-step in a YouTube tutorial:
 
 If you like this project, don’t forget to **star ⭐ the repository** and share it with others!
 
-```
